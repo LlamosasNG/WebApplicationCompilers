@@ -1,6 +1,3 @@
-
 export default function SyntacticDecending() {
-  return (
-    <div>Desde SyntacticDecending</div>
-  )
+  return <div>Hola</div>;
 }
