@@ -28,7 +28,7 @@ export default function Header() {
             <span>Sobre mí</span>
           </a>
           <a
-            href="#services"
+            href="/SyntacticAscending"
             className="flex items-center space-x-1 hover:text-gray-300"
           >
             <FaCog />
