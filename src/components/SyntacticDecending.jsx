@@ -197,34 +197,38 @@ export default function SyntacticDecending() {
           <h3 className="text-lg font-semibold mt-4 mb-2">Cálculo del Conjunto Primero:</h3>
           <pre className="bg-white p-2 rounded-md whitespace-pre-wrap">
 {`P(E) = P(T)
+P(E) = { (, id }
 E → T E'
+
+P(T) = P(F)
+P(T) = { (, id)}
+T → F T'
+
+P(F) = P( (E) ) ∪ P(id)
+P(F) = { (, id }
+F → ( E ) | id
 
 P(E') = P(+ T E') ∪ P(ε)
 P(E') = { +, ε }
 E' → + T E' | ε
 
-P(T) = P(F)
-T → F T'
 
 P(T') = P(* F T') ∪ P(ε)
 P(T') = { *, ε }
-T' → * F T' | ε
-
-P(F) = P(( E )) ∪ P(id)
-P(F) = { (, id }
-F → ( E ) | id`}
+T' → * F T' | ε`}
           </pre>
 
           <h3 className="text-lg font-semibold mt-4 mb-2">Cálculo del Conjunto Siguiente:</h3>
           <pre className="bg-white p-2 rounded-md whitespace-pre-wrap">
-{`S(E) = { $ }
+{`S(E) = { $, ) }
 E es el símbolo inicial
+F → ( E ) | id
 
 S(E') = S(E)
 S(E') = { ), $ }
 E → T E'
 
-S(T) = P(E') ∪ S(E)
+S(T) = P(E') ∪ S(E) ∪ S(E')
 S(T) = { +, ), $ }
 E → T E'
 E' → + T E' | ε
