@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Syntactic" element={<Syntactic />} />
           <Route path="/SyntacticAscending" element={<SyntacticAscending />} />
-          <Route path="/SyntacticDescending" element={<SyntacticDecending />} />
+          <Route path="/SyntacticDecending" element={<SyntacticDecending />} />
         </Routes>
       </div>
     </Router>

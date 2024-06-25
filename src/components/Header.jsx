@@ -21,7 +21,7 @@ export default function Header() {
             <span>Inicio</span>
           </a>
           <a
-            href="/Syntactic"
+            href="/SyntacticDecending"
             className="flex items-center space-x-1 hover:text-gray-300"
           >
             <FaUser />
