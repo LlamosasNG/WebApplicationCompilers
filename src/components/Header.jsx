@@ -7,14 +7,14 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Inicio", href: "/", current: true },
-  { name: "Analizador sintáctico", href: "/Syntactic", current: false },
+  { name: "Ejemplo 1", href: "/Syntactic", current: false },
   {
-    name: "Analizador sintáctico ascendente",
-    href: "/SyntacticAscending",
+    name: "Ejemplo 2",
+    href: "/",
     current: false,
   },
   {
-    name: "Analizador sintáctico descendente",
+    name: "Ejemplo 3",
     href: "/SyntacticDecending",
     current: false,
   },
