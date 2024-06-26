@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Definición de la gramática
 const grammar = `
 E  ->  T E'
