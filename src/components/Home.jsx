@@ -355,7 +355,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack11} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-bold mb-4">Onceava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Undécima iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> * id $
                   </p>
@@ -379,7 +379,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack12} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
-                  <h2 className="text-xl font-bold mb-4">Doceava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Duodécim iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong> * id $
                   </p>
@@ -404,7 +404,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack13} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-bold mb-4">Terceava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Decimotercera iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id $
                   </p>
@@ -428,7 +428,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack14} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
-                  <h2 className="text-xl font-bold mb-4">Catorceava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Decimocuarta iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong>  id $
                   </p>
@@ -453,7 +453,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack15} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-bold mb-4">Quinciava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Decimoquinta iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
                   </p>
@@ -477,7 +477,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack16} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-bold mb-4">diesiseisava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Decimosexta iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
                   </p>
@@ -501,7 +501,7 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack17} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
-                  <h2 className="text-xl font-bold mb-4">diesisietava iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">Decimoséptima iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
                   </p>
