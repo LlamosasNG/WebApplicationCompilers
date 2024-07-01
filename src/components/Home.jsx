@@ -125,7 +125,6 @@ export default function Home() {
                       {"T E'"}
                     </div>
                     <p className="font-bold">Se actualiza la pila </p>
-                    <ArrowRightIcon className="h-5 w-5 mx-2" />
                   </p>
                 </div>
                 <Stack stack={stack2} />
@@ -159,7 +158,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack3} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-6 rounded-lg shadow-md">
                   <h2 className="text-xl font-bold mb-4">Tercera iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id + id * id $
