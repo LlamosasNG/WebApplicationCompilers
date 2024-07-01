@@ -1,5 +1,6 @@
 import { CheckCircleIcon, ArrowRightIcon } from "@heroicons/react/20/solid";
 import Stack from "./stack";
+import SyntacticDecending from "./SyntacticDecending";
 
 export default function Home() {
   const stack = [" ", " ", "E", "$"];
@@ -24,7 +25,7 @@ export default function Home() {
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-64 lg:grid lg:w-full lg:max-w-screen-2xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">
@@ -46,10 +47,10 @@ export default function Home() {
           <img
             className="w-[48rem] max-w-none sm:w-[35rem]"
             src="../../public/gramatica.png"
-            alt="Robot-compilador"
+            alt="gramatica"
           />
         </div>
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-64 lg:grid lg:w-full lg:max-w-screen-2xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p className="mb-5">
@@ -103,14 +104,15 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <p className="text-2xl mt-10">
+            <SyntacticDecending />
+            <p className="text-2xl">
               Considerando la entrada inicial <strong>id + id * id $</strong>
             </p>
             {/*----------- Iteracion 1 ----------------- */}
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Primera iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id + id * id $
@@ -134,7 +136,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack2} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Segunda iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id + id * id $
@@ -158,7 +160,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack3} />
-                <div className="flex flex-col justify-center bg-gray-300 p-6 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-6 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Tercera iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id + id * id $
@@ -182,7 +184,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack4} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Cuarta iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong> id + id * id $
@@ -207,7 +209,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack5} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Quinta iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> + id * id $
@@ -231,7 +233,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack6} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Sexta iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> + id * id $
@@ -255,7 +257,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack7} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64 w-72">
                   <h2 className="text-xl font-bold mb-4">Septima iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong> + id * id $
@@ -280,7 +282,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack8} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Octava iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id * id $
@@ -304,7 +306,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack9} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Novena iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id * id $
@@ -328,7 +330,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack10} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Decima iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong> id * id $
@@ -353,7 +355,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack11} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Undécima iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> * id $
@@ -377,7 +379,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack12} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Duodécim iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong> * id $
@@ -402,7 +404,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack13} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Decimotercera iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id $
@@ -426,7 +428,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack14} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Decimocuarta iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong>  id $
@@ -451,7 +453,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack15} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Decimoquinta iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
@@ -475,7 +477,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack16} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Decimosexta iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
@@ -499,7 +501,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack17} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Decimoséptima iteración</h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
@@ -523,7 +525,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack18} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
                   <h2 className="text-xl font-bold mb-4">Finalizacion</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong>
