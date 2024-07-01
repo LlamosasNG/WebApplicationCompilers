@@ -1,7 +1,7 @@
-import Header from './components/Header';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import SyntacticDecending from './components/SyntacticDecending';
+import Header from "./components/Header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Syntactic from "./components/Syntactic"
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/SyntacticDecending" element={<SyntacticDecending />} />
+          <Route path="/Syntactic" element={<Syntactic />} />
         </Routes>
       </div>
     </Router>
