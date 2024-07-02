@@ -1,0 +1,35 @@
+[33mcommit 3d3b70b32b29dff42eb1c463c02dd2c8c0b4bc5e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelopment[m[33m, [m[1;31morigin/development[m[33m)[m
+Author: Llamosas <gonzalezllamosas07@gmail.com>
+Date:   Sun Jun 30 21:31:20 2024 -0600
+
+    Estructurando el proyecto para el merge
+
+[33mcommit 850f03308682558408e60e46d9f19a0264e2a5aa[m
+Author: RobertoIHH <rhernandez49360-5@ccpm.edu.mx>
+Date:   Fri Jun 28 03:20:19 2024 -0600
+
+    Cambio de nombres en pilas
+
+[33mcommit 8640ea2b1a2652477dfbd2184d98472bff69aad6[m
+Author: RobertoIHH <rhernandez49360-5@ccpm.edu.mx>
+Date:   Fri Jun 28 03:14:56 2024 -0600
+
+    Pilas terminadas
+
+[33mcommit 47c6820a0f35d20d437e591b264d579f0f2e0e0b[m
+Author: Llamosas <gonzalezllamosas07@gmail.com>
+Date:   Wed Jun 26 13:59:22 2024 -0600
+
+    Se implementa el ejercicio de análisis sintáctico predictivo
+
+[33mcommit 55467369cc53645e18c2598336c182bd53e0aa9b[m
+Author: Llamosas <gonzalezllamosas07@gmail.com>
+Date:   Mon Jun 24 12:23:59 2024 -0600
+
+    Cambios en análisis sintáctico
+
+[33mcommit d6464b053f013692ed3dcad89440476d5ed16abd[m
+Author: Llamosas <gonzalezllamosas07@gmail.com>
+Date:   Sun Jun 23 21:15:02 2024 -0600
+
+    Se agrega el Header con un diseño básico

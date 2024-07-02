@@ -214,30 +214,6 @@ export default function SyntacticDecending() {
             </li>
             <li>P(A)={`P(α) ∪ P(B)`}</li>
             <li>P(A)={`{ε, α, +}`}</li>
-            <li className="  text-red-500">
-              Si X es un terminal, entonces el Conjunto Primero(X) es {`{X}`}{" "}
-              posible
-            </li>
-            <li className="  text-red-500">
-              Si X → ε, entonces ε está en el Conjunto Primero(X)
-            </li>
-            <li className="  text-red-500">
-              Si X es un no terminal y X → Y1 Y2 ... Yk:
-              <ul className="list-disc list-inside ml-4 text-red-500">
-                <li>
-                  Añadir todos los terminales en el Conjunto Primero(Y1) al
-                  Conjunto Primero(X) (excepto ε)
-                </li>
-                <li>
-                  Si Y1 deriva a ε, añadir el Conjunto Primero(Y2) al Conjunto
-                  Primero(X), y así sucesivamente
-                </li>
-                <li>
-                  Si Y1, Y2, ..., Yk derivan a ε, añadir ε al Conjunto
-                  Primero(X)
-                </li>
-              </ul>
-            </li>
           </ul>
           <h3 className="text-xl font-black font-serif mb-2">
             Reglas para calcular el Conjunto Siguiente:
@@ -253,14 +229,7 @@ export default function SyntacticDecending() {
               El conjunto Siguiente de B es igual al conjunto primero de β
             </li>
             <ul className="list-disc list-inside ml-4">
-              <li className="  text-red-500">
-                Añadir el Conjunto Primero(β) - {`{ε}`} al Conjunto Siguiente(B)
-                posible
-              </li>
-              <li className="  text-red-500">
-                Si β deriva a ε (o β es ε), añadir el Conjunto Siguiente(A) al
-                Conjunto Siguiente(B) posible
-              </li>
+              
             </ul>
             <li>
               Si existe una producción T → α A b:

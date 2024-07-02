@@ -62,7 +62,7 @@ export default function Home() {
                     <strong>Entrada:</strong> id * + id $
                   </p>
                   <p className="text-gray-700 mt-2">
-                    <div className="text-center flex items-center justify-center">
+                    <div className="text-center flex items-center ">
                       <strong className="flex items-center mr-2">
                         Busqueda en la tabla:
                       </strong>
@@ -86,7 +86,7 @@ export default function Home() {
                     <strong>Entrada:</strong> id * + id $
                   </p>
                   <p className="text-gray-700 mt-2">
-                    <div className="text-center flex items-center justify-center">
+                    <div className="text-center flex items-center ">
                       <strong className="flex items-center mr-2">
                         Busqueda en la tabla:
                       </strong>
@@ -110,7 +110,7 @@ export default function Home() {
                     <strong>Entrada:</strong> id * + id $
                   </p>
                   <p className="text-gray-700 mt-2">
-                    <div className="text-center flex items-center justify-center">
+                    <div className="text-center flex items-center ">
                       <strong className="flex items-center mr-2">
                         Busqueda en la tabla:
                       </strong>
@@ -159,7 +159,7 @@ export default function Home() {
                     <strong>Entrada:</strong> * + id $
                   </p>
                   <p className="text-gray-700 mt-2">
-                    <div className="text-center flex items-center justify-center">
+                    <div className="text-center flex items-center ">
                       <strong className="flex items-center mr-2">
                         Busqueda en la tabla:
                       </strong>
