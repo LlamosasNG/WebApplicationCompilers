@@ -51,7 +51,7 @@ const table = {
 
 export default function SyntacticDecending() {
   return (
-    <div className="mt-5 mr-8">
+    <div className="mt-5 mr-6">
       <h1 className="text-2xl font-bold mb-4">
         Tabla de Análisis Sintáctico LL(1)
       </h1>

@@ -9,24 +9,24 @@ export default function Home() {
   const stack4 = [" ", "id ", "T'", "E'", "$"];
   const stack5 = [" ", "T'", "E'", "$"];
   const stack6 = [" ", "E'", "$"];
-  const stack7 = [" ", "+","T","E'", "$"];
-  const stack8 = [" ", "T","E'", "$"];
-  const stack9 = [" ", "F","T'","E'", "$"];
-  const stack10 = [" ", "id","T'","E'", "$"];
+  const stack7 = [" ", "+", "T", "E'", "$"];
+  const stack8 = [" ", "T", "E'", "$"];
+  const stack9 = [" ", "F", "T'", "E'", "$"];
+  const stack10 = [" ", "id", "T'", "E'", "$"];
   const stack11 = [" ", "T'", "E'", "$"];
   const stack12 = [" ", " *", "F", "T'", "E'", "$"];
-  const stack13 = [" ","F", "T'", "E'", "$"];
+  const stack13 = [" ", "F", "T'", "E'", "$"];
   const stack14 = [" ", "id ", "T'", "E'", "$"];
   const stack15 = [" ", "T'", "E'", "$"];
   const stack16 = [" ", "E'", "$"];
-  const stack17 = [" ","$"];
+  const stack17 = [" ", "$"];
   const stack18 = [" "];
 
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
+    <div className="isolate overflow-hidden bg-white px-10 py-24 sm:py-32 lg:overflow-visible lg:px-0">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-64 lg:grid lg:w-full lg:max-w-screen-2xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-          <div className="lg:pr-4">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-40 lg:grid lg:w-full lg:max-w-screen-2xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-2">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">
                 Compiladores
@@ -43,14 +43,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+        <div className="-ml-12 -mt-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            className="w-[48rem] max-w-none sm:w-[35rem]"
+            className="ml-40 w-[48rem] max-w-none sm:w-[35rem]"
             src="../../public/gramatica.png"
             alt="gramatica"
           />
         </div>
-        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-64 lg:grid lg:w-full lg:max-w-screen-2xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+        <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-40 lg:grid lg:w-full lg:max-w-screen-2xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
               <p className="mb-5">
@@ -198,8 +198,8 @@ export default function Home() {
                     </div>
                     <p className="font-bold">Se actualiza la pila</p>
                     <p className="text-gray-700 ">
-                    <strong>Nueva Entrada:</strong> + id * id $
-                  </p>
+                      <strong>Nueva Entrada:</strong> + id * id $
+                    </p>
                   </p>
                 </div>
                 <Stack stack={stack5} />
@@ -257,7 +257,7 @@ export default function Home() {
             <div className="flex justify-center mt-4">
               <div className="flex space-x-10">
                 <Stack stack={stack7} />
-                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64 w-72">
+                <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-64">
                   <h2 className="text-xl font-bold mb-4">Septima iteración</h2>
                   <p className="text-gray-700 ">
                     <strong>Entrada:</strong> + id * id $
@@ -271,8 +271,8 @@ export default function Home() {
                     </div>
                     <p className="font-bold">Se actualiza la pila</p>
                     <p className="text-gray-700 ">
-                    <strong>Nueva Entrada:</strong> id * id $
-                  </p>
+                      <strong>Nueva Entrada:</strong> id * id $
+                    </p>
                   </p>
                 </div>
                 <Stack stack={stack8} />
@@ -344,8 +344,8 @@ export default function Home() {
                     </div>
                     <p className="font-bold">Se actualiza la pila</p>
                     <p className="text-gray-700 ">
-                    <strong>Nueva Entrada:</strong> * id $
-                  </p>
+                      <strong>Nueva Entrada:</strong> * id $
+                    </p>
                   </p>
                 </div>
                 <Stack stack={stack11} />
@@ -393,8 +393,8 @@ export default function Home() {
                     </div>
                     <p className="font-bold">Se actualiza la pila</p>
                     <p className="text-gray-700 ">
-                    <strong>Nueva Entrada:</strong> id $
-                  </p>
+                      <strong>Nueva Entrada:</strong> id $
+                    </p>
                   </p>
                 </div>
                 <Stack stack={stack13} />
@@ -405,7 +405,9 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack13} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
-                  <h2 className="text-xl font-bold mb-4">Decimotercera iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">
+                    Decimotercera iteración
+                  </h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> id $
                   </p>
@@ -429,9 +431,11 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack14} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
-                  <h2 className="text-xl font-bold mb-4">Decimocuarta iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">
+                    Decimocuarta iteración
+                  </h2>
                   <p className="text-gray-700 ">
-                    <strong>Entrada:</strong>  id $
+                    <strong>Entrada:</strong> id $
                   </p>
                   <p className="text-gray-700 mt-2">
                     <div className="text-center flex items-center ">
@@ -442,8 +446,8 @@ export default function Home() {
                     </div>
                     <p className="font-bold">Se actualiza la pila</p>
                     <p className="text-gray-700 ">
-                    <strong>Nueva Entrada:</strong>  $
-                  </p>
+                      <strong>Nueva Entrada:</strong> $
+                    </p>
                   </p>
                 </div>
                 <Stack stack={stack15} />
@@ -454,7 +458,9 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack15} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
-                  <h2 className="text-xl font-bold mb-4">Decimoquinta iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">
+                    Decimoquinta iteración
+                  </h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
                   </p>
@@ -478,7 +484,9 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack16} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
-                  <h2 className="text-xl font-bold mb-4">Decimosexta iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">
+                    Decimosexta iteración
+                  </h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
                   </p>
@@ -502,7 +510,9 @@ export default function Home() {
               <div className="flex space-x-10">
                 <Stack stack={stack17} />
                 <div className="flex flex-col justify-center bg-gray-300 p-4 rounded-lg shadow-md w-72">
-                  <h2 className="text-xl font-bold mb-4">Decimoséptima iteración</h2>
+                  <h2 className="text-xl font-bold mb-4">
+                    Decimoséptima iteración
+                  </h2>
                   <p className="text-gray-700">
                     <strong>Entrada:</strong> $
                   </p>
@@ -535,7 +545,6 @@ export default function Home() {
                       <strong className="flex items-center mr-2">
                         Busqueda en la tabla:
                       </strong>
-                      
                     </div>
                   </p>
                 </div>
